@@ -21,12 +21,14 @@ h3 {
     text-decoration: underline;
     text-decoration-color: rgb(70, 54, 54);
     text-decoration-thickness: 2px;
-    background-color:  rgb(189, 143, 143);
+    background: rgb(240,93,93);
+    background: linear-gradient(180deg, rgb(164, 103, 103) 0%, rgb(186, 173, 162) 35%, rgba(232, 135, 135, 0) 100%);
     max-width: 1920px;
     border-radius: 10px;
     color: rgb(70, 54, 54);
     height: 30px;
     width: 100px;
+    text-align: center;
 }
 
 header {
@@ -45,7 +47,7 @@ main {
     text-align: center;
 }
 
-section {
+.project-card {
     text-align: center;
 }
 
@@ -59,7 +61,7 @@ img {
 footer {
     box-sizing: border-box;
     background: rgb(240,93,93);
-    background: linear-gradient(0deg, rgba(240,93,93,1) 0%, rgba(255,196,147,1) 35%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(0deg, rgb(255, 128, 128) 0%,rgb(250, 189, 189)35%, rgba(255,255,255,0) 100%);
     text-align: center;
     color: white;
 }
