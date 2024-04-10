@@ -1,16 +1,42 @@
 body {
-    background-color: rgb(22, 103, 128)
+    background-color: rgb(255, 176, 176)
 }
 
 h1 {
     color: rgb(70, 54, 54);
+    margin: auto;
 }
 
 h2 {
-    color: white
+    color: white;
+    margin: auto;
+}
+
+h3 {
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 2px;
+    background-color:  rgb(196, 147, 143);
+    max-width: 150px;
+    border-radius: 10px;
 }
 
 header {
     box-sizing: border-box;
-    background-color: blueviolet;
+    background-color: rgb(196, 147, 143);
+    border-radius: 15px;
+    text-align: center;
+}
+
+img {
+    max-width: 550px;
+    max-height: 550px;
+    align-items: center;
+}
+
+footer {
+    box-sizing: border-box;
+    background-color: rgb(196, 147, 143);
+    border-radius: 15px;
+    text-align: center;
 }
