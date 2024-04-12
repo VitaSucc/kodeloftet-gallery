@@ -1,3 +1,36 @@
+/*
+    Farge Palette
+*/
+
+    /* CSS Variables */
+
+:root[data-theme="light"] {
+        --text: #1f0a06;
+        --color-background: #fcf1ef;
+        --color-primary: #d54b2f;
+        --color-secondary: #e68c47;
+        --color-accent: #f8d870;
+      }
+:root[data-theme="dark"] {
+        --text: #f9e5e1;
+        --color-background: #110503;
+        --color-primary: #cf462a;
+        --color-secondary: #b85e19;
+        --color-accent: #8d6e07;
+      }
+
+.bg-primary {
+    background-color: var(--color-background)
+}
+
+.bg-primary {
+    background-color: var(--color-primary);
+}
+
+.bg-secondary {
+    background-color: var(--color-secondary);
+}
+
 body {
     background-color: rgb(255, 187, 187);
     margin: 0px;
