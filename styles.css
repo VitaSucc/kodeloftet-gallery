@@ -30,6 +30,44 @@
 .bg-secondary {
     background-color: var(--color-secondary);
 }
+.navbar {
+    background-color: #1f0a0600;
+    padding: 0px;
+}
+
+.navbar > nav {
+    background-color: white;
+    display: flex;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.text-cemter {
+    text-align: center;
+}
+
+.gap-sm {
+    gap: 10px;
+}
+
+.gap.md {
+    gap: 25px;
+}
+
+.gap-lg {
+    gap: 40px;
+}
 
 body {
     background-color: rgb(255, 187, 187);
@@ -67,9 +105,9 @@ h3 {
 header {
     background: rgb(240,93,93);
     background: linear-gradient(180deg, rgba(240,93,93,1) 0%, rgba(255,196,147,1) 35%, rgba(255,255,255,0) 100%);
-    text-align: center;
     margin: 0px;
-    height: 250px;
+    height: 100px;
+    text-align: center;
 }
 
 body {
@@ -110,7 +148,6 @@ footer {
 
 .First-Link {
     background-color: rgb(240, 93, 93);
-    max-width: 200px;
     border-radius: 15px;
     margin: auto;
     border-spacing: 100px;
