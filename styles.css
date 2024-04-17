@@ -30,6 +30,10 @@
 .bg-secondary {
     background-color: var(--color-secondary);
 }
+
+#Introduction {
+    text-align: center;
+}
 .navbar {
     background-color: #1f0a0600;
     padding: 0px;
@@ -110,6 +114,10 @@ header {
     text-align: center;
 }
 
+* {
+    margin: 0px;
+}
+
 body {
     text-align: center;
 }
@@ -134,7 +142,34 @@ footer {
     background: rgb(240,93,93);
     background: linear-gradient(0deg, rgb(255, 128, 128) 0%,rgb(250, 189, 189)35%, rgba(255,255,255,0) 100%);
     text-align: center;
-    color: white;
+    color: rgb(62, 62, 62);
+}
+
+.mini-page {
+    background-color: #fffafa;
+    display: grid;
+    grid-template-areas:
+        "nav nav"
+        "aside main"
+        "footer footer";
+    grid-template-columns:
+    grid-template-rows:
+}
+
+.mini-page > header {
+    grid-area: nav;
+}
+
+.mini-page > footer {
+    grid-area: footer;
+}
+
+.mini-page > aside {
+    grid-area: aside;
+}
+
+.mini-page > main {
+    grid-area: main;
 }
 
 .Info {
