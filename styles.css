@@ -19,6 +19,16 @@
         --color-accent: #8d6e07;
       }
 
+* {
+        font-family: "Kanit", sans-serif, "Bebas Neue", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+}
+
+.title {
+    font-family: "Bebas Neue", sans-serif;
+}
+
 .bg-primary {
     background-color: var(--color-background)
 }
